@@ -16,7 +16,7 @@ import { baseUrl } from '../utils/baseUrl.js';
     <ul role="list" class="flex flex-row gap-2">
       <li>
         <a
-          href="/"
+          href={baseUrl('/')}
           class:list={{
             ["hover:text-neutral-100"]: true,
             ["text-neutral-100"]: pathname === "/",
